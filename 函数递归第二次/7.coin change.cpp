@@ -32,7 +32,9 @@ void dfs(int layer){
             if(isvalid()){
                 casenum++;
                 std::cout << std::setfill('0') << std::setw(3) << casenum;
-                std::cout << std::setfill(' ') << std::setw(12) << ones << std::setfill(' ') << std::setw(12)<< twos << std::setfill(' ') << std::setw(12)<< fives <<std::endl;
+                std::cout << std::setfill(' ') << std::setw(12) << ones 
+                            << std::setfill(' ') << std::setw(12)<< twos 
+                            << std::setfill(' ') << std::setw(12)<< fives <<std::endl;
                 ones=0;
                 return;
             }
